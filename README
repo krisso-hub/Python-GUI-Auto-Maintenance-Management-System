@@ -1,2 +1,7 @@
 Auto Maintenance management system
 It collect car records and export to cvs file
+the basic record are first and last name of the owner,
+the make of the car, the model of the car and 
+the year car was manufactured
+
+Next step is add Maintenance record for each car
