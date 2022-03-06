@@ -19,6 +19,7 @@ root.geometry('%dx%d+%d+%d' % (width, height, x, y))
 root.resizable(0, 0)
 
 def additem():
+    # the values of items are being fetched
     e1=entry1.get()
     e2=entry2.get()
     e3=entry3.get()
@@ -85,7 +86,7 @@ def deleteitem():
             entry5.delete(0, END)
             entry6.delete(0, END)
 def updateitem():
-    
+    # items are being updated
     e1=entry1.get()
     e2=entry2.get()
     e3=entry3.get()
@@ -144,7 +145,7 @@ def clearitem():
 
  
 
-
+# string variables
 firstName = StringVar()
 lastName = StringVar()
 carMake = StringVar()
@@ -152,6 +153,7 @@ carModel = StringVar()
 year=StringVar()
 color = StringVar()
 
+# each widget created are appended to the window frame
 Top = Frame(root, width=900, height=50 ,bd=8, relief="raise")
 Top.pack(side=TOP)
 Left = Frame(root, width=200, height=500, bd=8, relief="raise")
