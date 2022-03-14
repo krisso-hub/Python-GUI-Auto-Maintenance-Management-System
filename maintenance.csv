@@ -1,4 +1,7 @@
-firstName,lastName,carMake,carModel,year,color
+firstName,lastName,carMake,carModel,year,color,service,serviceDate
 John, Mathew, Toyota, camry,2008,white
 Samuel, Solomon, Honda, Accord Sport,2010,green
 Samson, Lake, Lexus, Rx350,2011,black
+Nd, dodo, toyota, camry,2009,green
+Daniel, Bammy, Lexus, Rx 350,2017,black,Oil change,03/13/2022
+Frances, Bummy, Audi, A1,2018,Green,Tire replacement,03/13/2022
